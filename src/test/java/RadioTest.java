@@ -36,6 +36,7 @@ public class RadioTest {
         Assertions.assertEquals(0, radio.getCurrentVolume());
     }
 
+
     @Test
     public void shouldSetStation() {
         Radio radio = new Radio();
@@ -88,4 +89,5 @@ public class RadioTest {
         radio.prevStation();
         Assertions.assertEquals(9, radio.getCurrentStation());
     }
+
 }
